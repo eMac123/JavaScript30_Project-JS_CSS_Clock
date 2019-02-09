@@ -1,0 +1,37 @@
+html {
+    background: #018DED url('http://unsplash.it/1500/1000?image=881&blur=50');
+    font-family: 'helvetica neue';
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+body {
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.clock-face {
+    position: relative;
+    width: 405px;
+    height: 410px;
+    border: 10px solid #fff;
+    border-radius: 225px;
+}
+
+.arm {
+    position: absolute;
+    width: 50%;
+    height: 2%;
+    background: #769789;
+    transform-origin: 100%;
+    top: 50%;
+    transition: all 0.5s;
+}
+
+
+
