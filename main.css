@@ -21,6 +21,7 @@ body {
     height: 410px;
     border: 10px solid #fff;
     border-radius: 225px;
+    transform: translateY(-3px);
 }
 
 .arm {
